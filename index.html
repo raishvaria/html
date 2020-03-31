@@ -10,29 +10,32 @@
         <meta name="author" content="GreeNat tech">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="style.css"> <!-- external css -->
-      
     </head>
     <body>
-        <a 
-            href="https://egreenat.in" 
-            target="_blank"
-            title="Welcome to greenat"
+        <iframe 
+            src="frame.html"
+            height="300"
+            width="50%"
+            frameborder="1"
+            name="my_frame"
         >
-            GreeNat News
+            <!--  internal path iframe -->
+        </iframe>
+        <!-- now add target link to iframe -->
+        <a href="html.png" target="my_frame">
+            Target to my frame
         </a>
-        <br><br>
-        <a href="html.png" target="_blank">
-            <img src="html.png" height="100" width="100">
-        </a>
-       
-        <!--  Also we are use a tag for local link -->
+        <!--  now we are use the iframe for play the youtube video -->
         <br>
-        <a href="localcustom.html">Local link</a>
-        <br>
-       
-       <iframe src="frame1.html" width="500" height="500">
-        <!--  this is a parent iframe -->
-       </iframe>
+        <iframe 
+            width="500" 
+            height="300" 
+            src="https://www.youtube.com/embed/tNEb27SXcZ8" 
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="padding: 30px"
+        >
+        </iframe>
     </body>
 </html>
