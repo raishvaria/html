@@ -14,4 +14,4 @@ It can be assisted by technologies such as Cascading Style Sheets (CSS) and scri
 
 ## HTML Complete Video tutorials :
 
-- **[Playlist]https://www.youtube.com/playlist?list=PLDhY8MXwGm7Zo3jBoFPq15yzE3tClLTpf)**
+- **[Playlist](https://www.youtube.com/playlist?list=PLDhY8MXwGm7Zo3jBoFPq15yzE3tClLTpf)**
