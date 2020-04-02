@@ -18,24 +18,30 @@
             width="50%"
             frameborder="1"
             name="my_frame"
+            srcdoc="<p>Welcome to GreeNat</p>"
         >
-            <!--  internal path iframe -->
+            <!--  in src doc you can overrride the any html content -->
         </iframe>
-        <!-- now add target link to iframe -->
-        <a href="html.png" target="my_frame">
-            Target to my frame
-        </a>
-        <!--  now we are use the iframe for play the youtube video -->
         <br>
         <iframe 
-            width="500" 
-            height="300" 
-            src="https://www.youtube.com/embed/tNEb27SXcZ8" 
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            style="padding: 30px"
+            src="https://egreenat.in"
+            height="300"
+            width="50%"
+            frameborder="1"
+            name="sandbox_frame"
+            sandbox="allow-scripts allow-same-origin"
         >
+          
+        </iframe>
+        <iframe 
+            src="frame1.html"
+            height="300"
+            width="50%"
+            frameborder="1"
+            name="sandbox_frame"
+            sandbox="allow-forms allow-scripts allow-modals allow-same-origin allow-popups"
+        >
+          
         </iframe>
     </body>
 </html>
