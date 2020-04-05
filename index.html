@@ -5,43 +5,54 @@
         </title>
 
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Free html tutorials">
         <meta name="keywords" content="HTML, meta tags, metadata, head tags">
         <meta name="author" content="GreeNat tech">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
     </head>
     <body>
-        <iframe 
-            src="frame.html"
-            height="300"
-            width="50%"
-            frameborder="1"
-            name="my_frame"
-            srcdoc="<p>Welcome to GreeNat</p>"
+        <!--  now we are use the vscpace for top bottom margin -->
+        <img 
+            src="model/500x500.jpg"
+            height="600"
+            width="600"
+            srcset="model/500x500.jpg 500w, 
+                model/657x657.jpg 670w, 
+                model/736x736.jpg 768w, 
+                model/1079x1079.jpg 1200w"
+            longdesc="#idoflongdesc"
+            vspace="150"
         >
-            <!--  in srcdoc you can override the any html content -->
-        </iframe>
-        <br>
-        <iframe 
-            src="https://egreenat.in"
-            height="300"
-            width="50%"
-            frameborder="1"
-            name="sandbox_frame"
-            sandbox="allow-scripts allow-same-origin"
+     
+        <br><br><br>
+        <img 
+            src="html.png" 
+            height="200"
+            width="200"
+            alt="HTML Logo"
+            align="right"
+            hspace="100"
+            longdesc="html.png"
         >
-          
-        </iframe>
-        <iframe 
-            src="frame1.html"
-            height="300"
-            width="50%"
-            frameborder="1"
-            name="sandbox_frame"
-            sandbox="allow-forms allow-scripts allow-modals allow-same-origin allow-popups"
+       
+        <img 
+            src="html.png" 
+            alt="HTML Logo"
+            style="height: 200px; width: 200px;"
+            border="5"
         >
-          
-        </iframe>
+
+        <!-- add external server path of image -->
+        <a href="index.html" target="_blank">
+            <img 
+                src="https://images.unsplash.com/photo-1582219435545-57221e57a292?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80" 
+                alt="Nature Image"
+                height="400"
+                width="400"
+                ismap
+                longdesc="https://images.unsplash.com"
+            >
+        </a>
     </body>
 </html>
